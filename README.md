@@ -98,3 +98,43 @@ Open Command Prompt and run:
 mvn -version
 ```
 You should see Maven's installed version.
+
+
+
+3. Build the Java Application with Maven
+
+Step 1: Navigate to the Project Directory
+
+Open Command Prompt and change to your project directory:
+
+cd path\to\your\project
+
+Step 2: Compile the Project
+
+Run the following command to compile the Java source code:
+
+```sh
+mvn compile
+```
+Step 3: Package the Application
+
+To create a JAR file, use:
+
+```sh
+mvn package
+```
+
+The JAR file will be created in the target/ directory.
+
+Step 4: Run the Application
+
+If your project produces an executable JAR file, run it using:
+
+```sh
+java -jar target/your-app.jar
+```
+
+## Conclusion
+
+You have successfully installed Java, Maven, configured system paths, and built a Java project using Maven. Happy coding!
+
