@@ -56,3 +56,45 @@ java -version
 javac -version
 ```
 You should see the installed Java version.
+
+
+2. Install Apache Maven
+
+Step 1: Download Maven
+
+Visit the ``Maven Download Page`` and download the binary zip file.
+
+Extract the contents to a location like C:\apache-maven-3.9.5.
+
+Step 2: Set up the MAVEN_HOME environment variable
+
+Open Environment Variables (as in Java setup).
+
+Under System Variables, click New.
+
+Enter:
+
+Variable name: MAVEN_HOME
+
+Variable value: C:\apache-maven-3.9.5 (use your actual path)
+
+Click OK.
+
+Step 3: Add Maven to System PATH
+
+In the Environment Variables window, locate the Path variable under System Variables.
+
+Click Edit, then New.
+
+Add the Maven bin directory: C:\apache-maven-3.9.5\bin
+
+Click OK.
+
+Step 4: Verify Installation
+
+Open Command Prompt and run:
+
+```sh
+mvn -version
+```
+You should see Maven's installed version.
