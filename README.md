@@ -138,3 +138,4 @@ java -jar target/your-app.jar
 
 You have successfully installed Java, Maven, configured system paths, and built a Java project using Maven. Happy coding!
 
+## This is part of the journey and you will get there
