@@ -39,3 +39,4 @@ pipeline {
 
 #this pipiline looks basic 
 
+#but you will learn a lot from the basics
